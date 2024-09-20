@@ -1,10 +1,10 @@
-function App() {
+import PopupComponent from "./components/PopupComponent";
 
+function App() {
   return (
-    <>
-      <div className="text-red-500">hello</div>
-    </>
+    <main className="bg-black w-screen min-h-screen flex items-center justify-center overflow-y-hidden">
+      <PopupComponent />
+    </main>
   );
 }
-
 export default App;
